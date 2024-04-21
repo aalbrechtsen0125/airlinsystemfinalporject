@@ -1,1 +1,3 @@
-# airlinsystemfinalporject
+# airlinsystemfinalproject_data_collection
+
+The data colelcted from user input from the user interface will be reflected in the databse if it is connected properly. In order to confrim data is properly updating and being added, simply run program and provide input and check that the database. To test data collection I created a test input which canb be seen in the sql tables for the customer and user tablels as test, and these successfully uloaded into the database. To test data collection of the flight and ticket tables, I created multiple flights and then booked those flights. This data was all succesfully uplaoded into my SQL.
