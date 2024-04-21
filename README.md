@@ -1,4 +1,4 @@
-# airlinsystemfinalproject
+# airlinsystemfinalproject_unit_testing
 The provided java files have different test data that was inputted, and this tests the different use cases provided within the system. 
 
 The add flight java as well as search flight and ticket .java files all require updating in the design/source code when destinations are added. This is because these files utilize drop down menus in the design, so when adding destinations the admin would need to right click on these drop down controls in the design tab of these files. Then the admin would need to click the properties option and edit the options to include these destinations in all the files. Thus, this step must be done in all these java files. 
