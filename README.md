@@ -1,1 +1,14 @@
-# airlinsystemfinalporject
+# airlinsystemfinalprojectcode_README
+To run this code the user will need to have Xampp to connect the database to the IDE. For this system the user will be utilizing NetBeans as the IDE, and the mysql.jar file will need to be added to the user library in Netbeans as well as adding the user library to the classpath. After doing this, the database will be connected to the IDE and automatically update the databse based on user input when running the file.
+
+To run the code the user will need to download the .java files provided and place the JInternalFrames as well as the JExternalFrames. All of hese will be need to be added to the source package of a javaapplication named Airline, and the main file that needs to be configured to run in the IDE is the "Login.java" file as this will bbe the first interface the user encounters with this system. If the user does not already have an account, they will utilize the guest login that is uploaded in the database with the username of "guest" and the password of "guest". 
+
+If the user does not already have an account, they will use the guest login, and they will go to the user creation tab and create a username and password as well as enter their first and last name. The user account will then be created for them.
+
+After user account creation, if the user is a customer, they will need to either add themselves as a customer in order to get a customer ID number, or they can search customers by ID number to determine if they are already in the system. After creating their customer profile, the database will automatically input their information in the sytsem. 
+
+The customer user may then book a ticket in by clicking the ticket menu and then clicking the book ticket menu option. The user will then input their customer id in the customer information panel, the database will load the user information. User will then choose their desired destination and their depature location, and the database will provide the available flights. The user will then click their desired flight, and their choose their desired class and amount of seats to book. The price will be displayed, and the user will click book. The customer will be provided a ticket number, and the database will automatically load the booking information into the system. 
+
+For admins, there is a flight menu with menu options of add flight as well as update/search flight. The admin will use the add flight option to add flight information, and the database will automatically load the flight into the system to be avaialble for bookings. The search/update flight option allows the admin to search for flights by the flightn number that was assigned to the lfight when it was created, and the update ability allows the admin to update the flight information which will also update in the database. 
+
+All the functions described above have a cancel option to provide user error forgiveness. 
