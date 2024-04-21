@@ -1,1 +1,6 @@
-# airlinsystemfinalporject
+# airlinsystemfinalproject
+The provided java files have different test data that was inputted, and this tests the different use cases provided within the system. 
+
+The add flight java as well as search flight and ticket .java files all require updating in the design/source code when destinations are added. This is because these files utilize drop down menus in the design, so when adding destinations the admin would need to right click on these drop down controls in the design tab of these files. Then the admin would need to click the properties option and edit the options to include these destinations in all the files. Thus, this step must be done in all these java files. 
+
+Generating test data is simply a matter of running the system and inputting data. The data inputted to test this system can be seen in the sql file that was exported from the database. There were tables created to include: a customer table, a flight table, a ticket table, and a user table. The tables all have a test input that I used to test that all code was functioning properly. The functioning of my system was confirmed as the database updated regularly after input, and there are confirmation messages after adding the input in the interface that confirms the code runs correctly.
