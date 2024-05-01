@@ -1,3 +1,7 @@
 # airlinsystemfinalprojectdemo
 
-To view demo click the demo mp4 file and download the file to view 
+To view demo copy the link below and past into web browser.
+
+Demo Link:
+
+https://iu.mediaspace.kaltura.com/media/t/1_bt8sm1cr
